@@ -8,12 +8,12 @@ const Header = () => {
     const { currentUser } =  useSelector(state => state.user);
 
   return (
-    <header className="bg-slate-300 shadow-md">
+    <header className="bg-slate-400 shadow-md">
         <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
             <Link to="/">
                 <h1 className="text-sm sm:text-xl font-bold flex flex-wrap">
-                    <span className="text-slate-600">Watamu</span>
-                    <span className="text-slate-900">Homes</span>
+                    <span className="text-slate-700">Watamu</span>
+                    <span className="text-slate-950">Homes</span>
                 </h1>
             </Link>
             
